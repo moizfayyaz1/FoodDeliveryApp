@@ -2,28 +2,26 @@ import React from 'react'
 
 export default function Carousel() {
   return (
-    <div>
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img className="d-block w-100" src="https://source.unsplash.com/random/900x300/?bbq" alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img className="d-block w-100" src="https://source.unsplash.com/random/900x700/?pizza" alt="Second slide"/>
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img className="d-block w-100" src="https://source.unsplash.com/random/900x700/?chicken" alt="Third slide"/>
     </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span className="sr-only">Previous</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
+    <span className="sr-only">Next</span>
+  </a>
 </div>
-    </div>
   )
 }
