@@ -4,8 +4,8 @@ export default function Card() {
   return (
     <div>
         <div>
-        <div className="card mt-3" style={{"width": "18rem","maxHeight":"360px"}}>
-          <img className="card-img-top" src="..." alt=""/>
+        <div className="card mt-3" style={{"width": "18rem","maxHeight":"500px"}}>
+          <img className="card-img-top" src="https://envato-shoebox-0.imgix.net/1a3a/880f-ed7c-44d2-be90-3af608c9e888/fuji+burger00306.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=800&s=6d6e799ee610e4f17cbf3d01ea9a197d" alt=""/>
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

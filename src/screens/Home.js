@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div>
         <div><Navbar/></div>
-        <div><Carousel></Carousel></div>
-        <div><Card></Card></div>
+        <div ><Carousel></Carousel></div>
+        <div className='m-3'><Card></Card></div>
         <div><Footer></Footer></div>
         
     </div>
